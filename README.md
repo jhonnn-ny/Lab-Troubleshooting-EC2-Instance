@@ -153,10 +153,11 @@ After you fix the issue, the run-instances command succeeds, and a public IPv4 a
 **Try to connect to the webpage**
 
 In a browser, navigate to the following address. Replace *<public-ip>* with the Public IPv4 address of the new instance that you created: `http://<public-ip>`
+![6](https://github.com/user-attachments/assets/bcc8021b-daf0-4a15-a49a-96cd2375a92a)
 
 The attempt fails. You need to resolve issue #2.
 
-![6](https://github.com/user-attachments/assets/bcc8021b-daf0-4a15-a49a-96cd2375a92a)
+
 ![7](https://github.com/user-attachments/assets/4d1edf9c-2d94-4c8f-b6c2-1723bfc4511f)
 ![8](https://github.com/user-attachments/assets/454aa8ab-91e3-47d4-9aad-c9abe8ca33b6)
 ![9](https://github.com/user-attachments/assets/688a4970-0bc2-4015-a22d-19f075d5390b)
