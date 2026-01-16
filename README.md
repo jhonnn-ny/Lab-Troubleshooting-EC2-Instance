@@ -8,7 +8,9 @@ When you create the instance, you will reference a user data script to configure
 
 The same user data file will deploy website files and run database configuration scripts on the instance. The result will be an instance that hosts the Café Web Application.
 
-![image.png](attachment:53940957-c540-4c1d-845a-0c60c9439048:image.png)
+![1](https://github.com/user-attachments/assets/fa9d0d49-299c-4120-b4af-f79b81b082f0)
+_Access credentials were shared only for educational purposes, they're already deleted_
+
 
 ## **Objectives**
 
@@ -44,8 +46,9 @@ In this task, you configure the AWS CLI by providing the configuration parameter
     
     aws configure
     ```
+    ![2](https://github.com/user-attachments/assets/d382dd8e-b45e-489f-8ccb-5cd99cf46130)
+
     
-    ![image.png](attachment:0ba854ac-0edb-4987-9c19-5290b1ee3e8f:image.png)
     
     **Tip:** In EC2 Instance Connect, you might need to use the context (right-click) menu to paste values in the terminal.
     
@@ -82,8 +85,9 @@ First, create a backup of the script that you will edit in a later step.
     ```
     
 3. Analyze the contents of the script:
+![3](https://github.com/user-attachments/assets/7fa60909-4f8d-4de8-a1ad-8164c871045c)
 
-![image.png](attachment:c05329ac-c143-4673-9f0a-18711ff06231:image.png)
+
 
 **Tip:** If you are using VI, you can display the line numbers by typing `:set number` and then pressing Enter.
 
@@ -111,7 +115,8 @@ First, create a backup of the script that you will edit in a later step.
     cat create-lamp-instance-userdata-v2.txt
     ```
     
-    ![image.png](attachment:cacf4f7d-14aa-4146-8299-b26cb1155077:image.png)
+   ![4](https://github.com/user-attachments/assets/3253dd31-d527-477e-b0e2-4340f32151a1)
+
     
     Notice how the user data script runs a series of commands on the instance after it is launched. These commands will install a web server, PHP, and a database server.
     
@@ -125,8 +130,9 @@ First, create a backup of the script that you will edit in a later step.
     ./create-lamp-instance-v2.sh
     ```
     
+![5](https://github.com/user-attachments/assets/b052853b-aaba-4e3a-ad91-b9d9c8553b5d)
 
-![image.png](attachment:01565d25-09b5-41d8-9ce3-78094764944d:image.png)
+
 
 The script fails and exits without successfully completing. *This behavior is expected.*
 
@@ -150,13 +156,11 @@ In a browser, navigate to the following address. Replace *<public-ip>* with the 
 
 The attempt fails. You need to resolve issue #2.
 
-![image.png](attachment:da2ff2cc-8832-45a5-bcaf-9f021f6b3501:image.png)
+![6](https://github.com/user-attachments/assets/bcc8021b-daf0-4a15-a49a-96cd2375a92a)
+![7](https://github.com/user-attachments/assets/4d1edf9c-2d94-4c8f-b6c2-1723bfc4511f)
+![8](https://github.com/user-attachments/assets/454aa8ab-91e3-47d4-9aad-c9abe8ca33b6)
+![9](https://github.com/user-attachments/assets/688a4970-0bc2-4015-a22d-19f075d5390b)
 
-![image.png](attachment:bff6cdb3-5a41-4310-a048-5c7d8bb3633e:image.png)
-
-![image.png](attachment:174a2690-d25f-4ff7-8876-6a53c8586670:image.png)
-
-![image.png](attachment:4a135f62-35cb-4234-ba0f-d29b39835f0a:image.png)
 
 **Issue #2**
 
@@ -183,7 +187,9 @@ The run-instances command succeeded, and a public IP address was assigned to the
     nmap -Pn <public-ip>
     ```
     
-    ![image.png](attachment:de268dbc-9ed9-420a-a3df-b24e892c00c9:image.png)
+![10](https://github.com/user-attachments/assets/a8eef8cb-e257-4cfd-9cfa-05b8d6a61eff)
+![11](https://github.com/user-attachments/assets/22889438-e0d8-4c7d-a5a9-7887803ed1b8)
+
     
     The output from this command shows which ports are accessible. Do the results match what you expected? Do you know what needs to be changed based on the output?
     
@@ -229,7 +235,8 @@ The run-instances command succeeded, and a public IP address was assigned to the
     
     **Note:** The order details are being captured and stored in the database that is running on the LAMP instance that you launched.
     
-    ![image.png](attachment:99601c4d-1e2e-43b6-b7d3-835a64d2dd92:image.png)
+    ![12](https://github.com/user-attachments/assets/4f1a1f8b-5315-48bb-a21f-3acc26c656b8)
+
     
 
 ## **Conclusion**
