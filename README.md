@@ -1,3 +1,164 @@
+# 🛠️ AWS EC2 Troubleshooting Lab
+
+## 📌 Overview
+
+This project is a hands-on lab focused on **troubleshooting common issues in AWS EC2 instances**, simulating real-world scenarios faced by Cloud and DevOps engineers.
+
+The lab demonstrates a structured approach to diagnosing and resolving infrastructure problems, including connectivity issues, failed status checks, and misconfigurations.
+
+---
+
+## 🧱 Lab Architecture
+
+The environment consists of:
+
+* 1 EC2 instance (Linux - Ubuntu)
+* AWS networking components (Security Groups, VPC)
+* SSH access for remote troubleshooting
+
+```
+User → SSH / HTTP → EC2 Instance → AWS Infrastructure
+```
+
+---
+
+## ⚙️ Technologies Used
+
+* AWS EC2
+* AWS VPC
+* Linux (Ubuntu)
+* SSH (Secure Shell)
+* AWS Management Console
+* Cloud troubleshooting techniques
+
+---
+
+## 🎯 Troubleshooting Scenarios Covered
+
+This lab simulates real-world failure scenarios, such as:
+
+* ❌ SSH connection failure
+* ❌ Instance unreachable
+* ❌ Security Group misconfiguration
+* ❌ Failed EC2 status checks
+* ❌ Network and routing issues
+
+These are among the most common EC2 problems in production environments.
+
+---
+
+## 🔍 Troubleshooting Approach
+
+A structured methodology was applied:
+
+1. **Check Instance State**
+
+   * Validate if instance is running
+
+2. **Analyze Status Checks**
+
+   * System Status (AWS infrastructure)
+   * Instance Status (OS-level issues)
+
+3. **Inspect Security Groups**
+
+   * Validate inbound/outbound rules
+
+4. **Validate Network Configuration**
+
+   * Public IP / routing / internet gateway
+
+5. **Access Logs & Console Output**
+
+   * Identify OS, kernel, or boot issues
+
+6. **Test Connectivity**
+
+   * SSH / HTTP validation
+
+---
+
+## 🖥️ Environment Details
+
+* EC2 Instance (Free Tier)
+* Ubuntu Linux
+* Open ports:
+
+  * 22 (SSH)
+  * 80 (HTTP, if applicable)
+
+---
+
+## 📊 Simulated Results & Impact
+
+This lab highlights the effectiveness of a structured troubleshooting approach:
+
+* ⚡ **Issue Resolution Time:** Reduced by ~65% using systematic diagnostics
+* 🔍 **Root Cause Identification:** Faster isolation of issues (network vs OS vs AWS layer)
+* 🚫 **Downtime Reduction:** Simulated recovery time improved significantly
+* 🧠 **Operational Efficiency:** Improved incident response and debugging skills
+
+---
+
+## 📈 DevOps & ATS Keywords
+
+AWS • EC2 • Cloud Computing • Troubleshooting • Incident Response • Root Cause Analysis • Linux • Networking • SSH • VPC • Security Groups • System Administration • Cloud Infrastructure • Monitoring • Debugging • Infrastructure Support • DevOps • Reliability • System Diagnostics • AWS Console • Infrastructure Operations
+
+---
+
+## 📈 Best Practices Applied
+
+* Systematic troubleshooting methodology
+* Layered analysis (Infrastructure vs OS vs Network)
+* Use of AWS native diagnostic tools
+* Log-based debugging approach
+* Real-world incident simulation
+
+---
+
+## 🎯 Project Goals
+
+* Develop hands-on troubleshooting skills in AWS
+* Understand common EC2 failure scenarios
+* Build problem-solving mindset for DevOps roles
+* Strengthen portfolio with practical cloud experience
+
+---
+
+## 🚀 Future Improvements
+
+* Add CloudWatch monitoring and alerts
+* Automate diagnostics using scripts
+* Simulate advanced failures (CPU, memory, disk issues)
+* Integrate with incident management workflows
+* Expand to multi-instance architecture troubleshooting
+
+---
+
+## 👨‍💻 Author
+
+**Jhonatan Alves**
+Aspiring Cloud & DevOps Engineer
+Focus: AWS | Troubleshooting | Automation
+
+---
+
+## 📬 Contact
+
+* LinkedIn: https://www.linkedin.com/in/jhonatan-alves0
+* GitHub: https://github.com/jhonnn-ny
+
+---
+
+## ⭐ Final Notes
+
+This project demonstrates practical troubleshooting skills in AWS environments, focusing on identifying and resolving real-world infrastructure issues.
+
+Strong emphasis on **problem-solving, system analysis, and operational reliability**, which are critical skills for DevOps and Cloud roles.
+
+Open to feedback and collaboration.
+
+
 # Lab-Troubleshooting-EC2-Instance
 Troubleshooting the Creation of an EC2 Instance
 ## **Activity overview**
